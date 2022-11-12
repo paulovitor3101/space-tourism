@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Space technology">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+    rel="stylesheet" />
+  <!-- Animate CSS -->
+  <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <title>TECHNOLOGY</title>
+</head>
+
+<body
+  class="min-h-screen overflow-x-hidden bg-[url('../assets/technology/background-technology-mobile.jpg')] bg-cover md:bg-[url('../assets/technology/background-technology-tablet.jpg')] lg:bg-[url('../assets/technology/background-technology-desktop.jpg')]">
+  <!-- Header -->
+
+  <header class="header relative flex items-center justify-between p-6 lg:pt-10 lg:pr-0 lg:pl-10">
+    <div class="cursor-pointer">
+      <a href="./index.html"><img width="48" height="48" class="transition ease-in-out hover:scale-125"
+          src="assets/shared/logo.svg" alt="Logo" /></a>
+    </div>
+    <div>
+      <img class="w-7 cursor-pointer md:hidden" width="24" height="21" src="assets/shared/icon-hamburger.svg"
+        alt="icon menu" id="menu" />
+    </div>
+    <div class="linha hidden xl:block"></div>
+    <nav aria-label="primaria"
+      class="menu-mobile md:visible md:right-0 md:h-auto md:w-auto lg:static lg:w-full lg:max-w-4xl" data-nav="link">
+      <div class="absolute top-8 right-8 w-7 cursor-pointer md:hidden">
+        <img width="21" height="20" src="assets/shared/icon-close.svg" alt="Icon close menu" id="close-menu" />
+      </div>
+      <ul
+        class="nav-list mt-32 items-center gap-x-7 pl-5 text-success md:mt-0 md:flex md:h-24 md:px-11 lg:justify-center lg:gap-16">
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./index.html"><span class="font-bold md:hidden lg:inline-block">00</span>
+            Home</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./destination-moon.html"><span class="font-bold md:hidden lg:inline-block">01</span>
+            Destination</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./crew-commander.html"><span class="font-bold md:hidden lg:inline-block">02</span>
+            Crew</a>
+        </li>
+        <li class="">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./technology-vehicle.html"><span class="font-bold md:hidden lg:inline-block">03</span>
+            Technology</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="animate__fadeIn mx-auto mt-8 grid place-items-center text-center lg:mt-16 lg:max-w-7xl">
+    <p
+      class="mb-8 text-center font-barlow text-base font-medium uppercase tracking-widest text-success md:ml-8 md:mb-14 md:justify-self-start lg:col-span-2 lg:h-20 lg:text-2xl">
+      <span class="font-bold opacity-25">03 </span>Space launch 101
+    </p>
+
+    <ul data-tab="img" class="lg:order-1 ">
+      <li data-anime="show-right">
+        <picture>
+          <source media="(min-width:1024px)" srcset="assets/technology/image-launch-vehicle-portrait.jpg">
+          <img width="768" height="310" src="assets/technology/image-launch-vehicle-landscape.jpg" alt="Imagem foguete" />
+        </picture>
+      </li>
+      <li data-anime="show-right" class="">
+        <picture>
+          <source media="(min-width:1024px)" srcset="assets/technology/image-spaceport-portrait.jpg">
+          <img width="768" height="310"  src="assets/technology/image-spaceport-landscape.jpg" alt="Imagem foguete" />
+        </picture>
+      </li>
+      <li data-anime="show-right" class="">
+        <picture>
+          <source media="(min-width:1024px)" srcset="assets/technology/image-space-capsule-portrait.jpg">
+          <img width="768" height="310"  src="assets/technology/image-space-capsule-landscape.jpg" alt="Imagem foguete" />
+        </picture>
+      </li>
+    </ul>
+
+    <section data-tab="content" class="w-11/12 m-auto md:w-3/4 lg:text-left lg:flex lg:items-center lg:gap-x-6">
+
+      <ul class="py-6 lg:flex-col lg:gap-y-8 lg:py-0 flex items-center justify-center gap-x-4 font-bellefair"
+        data-tab="menu" data-tech="link">
+        <li
+          class=" ativo md:w-14 md:h-14 flex h-10 w-10 items-center justify-center rounded-full border border-grazy text-success cursor-pointer hover:border-success transition">
+          1
+        </li>
+        <li
+          class="flex md:w-14 md:h-14 h-10 w-10 items-center justify-center rounded-full border border-grazy text-success cursor-pointer hover:border-success transition">
+          2 </li>
+        <li
+          class="flex md:w-14 md:h-14 h-10 w-10 items-center justify-center rounded-full border border-grazy text-success cursor-pointer hover:border-success transition">
+          3 </li>
+      </ul>
+
+      <section data-anime="show-right">
+        <div class="pb-4">
+          <span class="uppercase tracking-widest text-secundary  block lg:mb-4 lg:text-base">
+            The terminology...</span>
+          <h3 class="py-2 font-bellefair text-3xl uppercase leading-8 text-success md:text-3xl lg:text-5xl">
+            Launch vehicle
+          </h3>
+        </div>
+        <p class="pb-5 text-sm text-secundary lg:text-start lg:leading-8">
+          A launch vehicle or carrier rocket is a rocket-propelled vehicle
+          used to carry a payload from Earth's surface to space, usually to
+          Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful
+          in operation. Standing 150 metres tall, it's quite an awe-inspiring
+          sight on the launch pad!
+        </p>
+      </section>
+
+      <section data-anime="show-right">
+        <div class="pb-4">
+          <span class="uppercase tracking-widest text-secundary block lg:mb-4 lg:text-base">
+            The terminology...</span>
+          <h3 class="py-2 font-bellefair text-3xl uppercase leading-8 text-success md:text-3xl lg:text-5xl">
+            SPACEPORT
+          </h3>
+        </div>
+        <p class="pb-5 text-sm text-secundary lg:text-start lg:leading-8">
+          A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for
+          ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take
+          advantage of the Earth’s rotation for launch.
+        </p>
+      </section>
+
+      <section data-anime="show-right">
+        <div class="pb-4">
+          <span class="uppercase tracking-widest text-secundary block lg:mb-4 lg:text-base">
+            The terminology...</span>
+          <h3 class="py-2 font-bellefair text-3xl uppercase leading-8 text-success md:text-3xl lg:text-5xl">
+            SPACE CAPSULE
+          </h3>
+        </div>
+        <p class="pb-5 text-sm text-secundary lg:text-start lg:leading-8">
+          A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's
+          atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space
+          gym, cinema, and plenty of other activities to keep you entertained.
+        </p>
+      </section>
+
+    </section>
+  </main>
+
+  <!-- JavaScript -->
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

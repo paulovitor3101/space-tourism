@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Commander Espace">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+    rel="stylesheet" />
+  <!-- Animate CSS -->
+  <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <title>CREW</title>
+</head>
+
+<body
+  class="min-h-screen overflow-x-hidden bg-[url('../assets/crew/background-crew-mobile.jpg')] bg-cover bg-no-repeat md:bg-[url('../assets/crew/background-crew-tablet.jpg')] lg:overflow-hidden lg:bg-[url('../assets/crew/background-crew-desktop.jpg')]">
+  <!-- HEADER -->
+
+  <header class="header relative flex items-center justify-between p-6 lg:pt-10 lg:pr-0 lg:pl-10">
+    <div class="cursor-pointer">
+      <a href="./index.html"><img width="48" height="48" class="transition ease-in-out hover:scale-125"
+          src="assets/shared/logo.svg" alt="Logo" /></a>
+    </div>
+    <div>
+      <img width="24" height="21" class="w-7 cursor-pointer md:hidden" src="assets/shared/icon-hamburger.svg"
+        alt="icon menu" id="menu" />
+    </div>
+    <div class="linha hidden xl:block"></div>
+    <nav aria-label="primaria"
+      class="menu-mobile md:visible md:right-0 md:h-auto md:w-auto lg:static lg:w-full lg:max-w-4xl" data-nav="link">
+      <div class="absolute top-8 right-8 w-7 cursor-pointer md:hidden">
+        <img width="21" height="20" src="assets/shared/icon-close.svg" alt="Icon close menu" id="close-menu" />
+      </div>
+      <ul
+        class="nav-list mt-32 items-center gap-x-7 pl-5 text-success md:mt-0 md:flex md:h-24 md:px-11 lg:justify-center lg:gap-16">
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./index.html"><span class="font-bold md:hidden lg:inline-block">00</span>
+            Home</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./destination-moon.html"><span class="font-bold md:hidden lg:inline-block">01</span>
+            Destination</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./crew-commander.html"><span class="font-bold md:hidden lg:inline-block">02</span>
+            Crew</a>
+        </li>
+        <li class="">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./technology-vehicle.html"><span class="font-bold md:hidden lg:inline-block">03</span>
+            Technology</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HEADER -->
+
+  <!-- CONTENT -->
+
+  <main
+    class="animate__fadeIn px-8 grid place-content-center justify-items-center pb-10 text-center md:pb-0 lg:m-auto lg:max-w-7xl lg:items-center lg:gap-x-32 lg:mt-36">
+    <p
+      class="my-8 text-center font-barlow text-base font-medium uppercase tracking-widest text-success md:ml-8 md:mb-14 md:justify-self-start lg:col-span-2 lg:ml-0 lg:text-xl">
+      <span class="font-bold opacity-25">02</span> Meet your crew
+    </p>
+
+    <ul class="flex w-96 justify-center border-b border-grazy px-10 md:order-1 md:w-full md:border-0" data-tab="img">
+      <li data-anime="show-right">
+        <img class="w-56 md:w-3/4 m-auto lg:w-full" width="514" height="700"
+          src="assets/crew/image-douglas-hurley.webp" alt="Image Douglas" />
+      </li>
+      <li data-anime="show-right">
+        <img class="w-56 md:w-3/4 m-auto lg:w-full" width="433" height="640"
+          src="assets/crew/image-mark-shuttleworth.webp" alt="Image Douglas" />
+      </li>
+      <li data-anime="show-right">
+        <img class="w-56 md:w-3/4 m-auto lg:w-full" width="549" height="645" src="assets/crew/image-victor-glover.webp"
+          alt="Image Douglas" />
+      </li>
+      <li data-anime="show-right">
+        <img class="w-56 md:w-3/4 m-auto lg:w-full" width="575" height="602"
+          src="assets/crew/image-anousheh-ansari.webp" alt="Image Douglas" />
+      </li>
+    </ul>
+
+    <section class="w-11/12 px-2 md:grid md:w-3/5 lg:w-full lg:gap-y-16">
+      <ul data-tab="menu" data-crew="links"
+        class="flex justify-center gap-x-4 py-6 md:order-1 md:mb-16 lg:justify-self-start">
+        <li class="ativo h-3 w-3 cursor-pointer rounded-full bg-success opacity-20 transition hover:opacity-50">
+          <a href="#"></a>
+        </li>
+        <li class="h-3 w-3 cursor-pointer rounded-full bg-success opacity-20 transition hover:opacity-50">
+          <a href="#"></a>
+        </li>
+        <li class="h-3 w-3 cursor-pointer rounded-full bg-success opacity-20 transition hover:opacity-50">
+          <a href="#"></a>
+        </li>
+        <li class="h-3 w-3 cursor-pointer rounded-full bg-success opacity-20 transition hover:opacity-50">
+          <a href="#"></a>
+        </li>
+      </ul>
+
+      <section data-tab="content">
+        <!-- Commander -->
+
+        <section class="m-auto lg:text-start">
+          <h3 class="font-bellefair text-2xl uppercase leading-8 text-success opacity-50 lg:mb-4">
+            Commander
+          </h3>
+          <h3 class="py-2 font-bellefair text-3xl uppercase leading-8 text-success md:text-3xl lg:text-5xl">
+            Douglas Hurley
+          </h3>
+          <p class="pt-4 text-sm text-secundary lg:w-128 lg:text-start">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps
+            pilot and former NASA astronaut. He launched into space for the
+            third time as commander of Crew Dragon Demo-2.
+          </p>
+        </section>
+
+        <!-- Commander -->
+
+        <!-- Mission Specialist -->
+
+        <section class="m-auto lg:text-start">
+          <h3 class="font-bellefair text-2xl uppercase leading-8 text-success opacity-50 lg:mb-4">
+            Mission Specialist
+          </h3>
+          <h3 class="py-2 font-bellefair text-3xl uppercase leading-8 text-success md:text-3xl lg:text-5xl">
+            Mark Shuttleworth
+          </h3>
+          <p class="pt-4 text-sm text-secundary lg:w-128 lg:text-start">
+            Mark Richard Shuttleworth is the founder and CEO of Canonical, the
+            company behind the Linux-based Ubuntu operating system.
+            Shuttleworth became the first South African to travel to space as
+            a space tourist.
+          </p>
+        </section>
+
+        <!-- Mission Specialist -->
+
+        <!-- Pilot -->
+        <section class="m-auto lg:text-start">
+          <h3 class="font-bellefair text-2xl uppercase leading-8 text-success opacity-50 lg:mb-4">
+            Pilot
+          </h3>
+          <h3 class="py-2 font-bellefair text-3xl uppercase leading-8 text-success md:text-3xl lg:text-5xl">
+            Victor Glover
+          </h3>
+          <p class="pt-4 text-sm text-secundary lg:w-128 lg:text-start">
+            Pilot on the first operational flight of the SpaceX Crew Dragon to
+            the International Space Station. Glover is a commander in the U.S.
+            Navy where he pilots an F/A-18.He was a crew member of Expedition
+            64, and served as a station systems flight engineer.
+          </p>
+        </section>
+        <!-- Pilot -->
+
+        <!-- Engineer -->
+        <section class="m-auto lg:text-start">
+          <h3 class="font-bellefair text-2xl uppercase leading-8 text-success opacity-50 lg:mb-4">
+            Flight Engineer
+          </h3>
+          <h3 class="py-2 font-bellefair text-3xl uppercase leading-8 text-success md:text-3xl lg:text-5xl">
+            Anousheh Ansari
+          </h3>
+          <p class="pt-4 text-sm text-secundary lg:w-128 lg:text-start">
+            Anousheh Ansari is an Iranian American engineer and co-founder of
+            Prodea Systems. Ansari was the fourth self-funded space tourist,
+            the first self-funded woman to fly to the ISS, and the first
+            Iranian in space.
+          </p>
+        </section>
+
+        <!-- Engineer -->
+      </section>
+    </section>
+  </main>
+
+  <!-- CONTENT -->
+
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

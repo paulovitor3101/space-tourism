@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Destination Planet">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+    rel="stylesheet" />
+
+  <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon" />
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>DESTINATION</title>
+</head>
+
+<body
+  class="min-h-screen overflow-x-hidden  bg-[url('../assets/destination/background-destination-mobile.jpg')] bg-cover bg-no-repeat md:bg-[url('../assets/destination/background-destination-tablet.jpg')] lg:bg-[url('../assets/destination/background-destination-desktop.jpg')]">
+  <!-- HEADER -->
+  <header class="header relative flex items-center justify-between p-6 lg:pt-10 lg:pr-0 lg:pl-10">
+    <div class="cursor-pointer">
+      <a href="./index.html"><img width="48" height="48" class="transition ease-in-out hover:scale-125"
+          src="assets/shared/logo.svg" alt="Logo" /></a>
+    </div>
+    <div>
+      <img class="w-7 cursor-pointer md:hidden" width="24" height="21" src="assets/shared/icon-hamburger.svg"
+        alt="icon menu" id="menu" />
+    </div>
+    <div class="linha hidden xl:block"></div>
+    <nav aria-label="primaria"
+      class="menu-mobile md:visible md:right-0 md:h-auto md:w-auto lg:static lg:w-full lg:max-w-4xl" data-nav="link">
+      <div class="absolute top-8 right-8 w-7 cursor-pointer md:hidden">
+        <img width="21" height="20" src="assets/shared/icon-close.svg" alt="Icon close menu" id="close-menu" />
+      </div>
+      <ul
+        class="nav-list mt-32 items-center gap-x-7 pl-5 text-success md:mt-0 md:flex md:h-24 md:px-11 lg:justify-center lg:gap-16">
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./index.html"><span class="font-bold md:hidden lg:inline-block">00</span>
+            Home</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./destination-moon.html"><span class="font-bold md:hidden lg:inline-block">01</span>
+            Destination</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./crew-commander.html"><span class="font-bold md:hidden lg:inline-block">02</span>
+            Crew</a>
+        </li>
+        <li class="">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./technology-vehicle.html"><span class="font-bold md:hidden lg:inline-block">03</span>
+            Technology</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HEADER -->
+
+  <!-- CONTENT -->
+
+  <main class="animate__fadeIn mx-auto mt-8 grid place-items-center text-center lg:mt-36 lg:max-w-7xl">
+    <p
+      class="mb-8 text-center font-barlow text-base font-medium uppercase tracking-widest text-success md:ml-8 md:mb-14 md:justify-self-start lg:col-span-2 lg:h-20 lg:text-xl">
+      <span class="font-bold opacity-25">01</span> Pick your destination
+    </p>
+
+    <div class="lg:w-4/5 grid w-80 items-center justify-items-center md:w-4/5 lg:grid-cols-2 lg:gap-x-56">
+      <ul class="img mb-6 w-44 rotate-2 md:w-72 lg:w-full" data-tab="img">
+        <li data-anime="show-right">
+          <img src="assets/destination/image-moon.webp" alt="imagem Moon" class="animate-spin-slow" />
+        </li>
+        <li data-anime="show-right">
+          <img src="assets/destination/image-mars.webp" alt="imagem Mars" class="animate-spin-slow" />
+        </li>
+        <li data-anime="show-right">
+          <img src="assets/destination/image-europa.webp" alt="imagem Europa" class="animate-spin-slow" />
+        </li>
+        <li data-anime="show-right">
+          <img src="assets/destination/image-titan.webp" alt="imagem Titan" class="animate-spin-slow" />
+        </li>
+      </ul>
+
+      <div class="lg:w-128">
+        <!-- NAV -->
+        <nav>
+          <ul class="nav-list mb-6 flex justify-center gap-x-6 font-barlow-condensed md:gap-x-8 lg:justify-start"
+            data-tab="menu" data-planet="link">
+            <li>
+              <a href="#"
+                class=" ativo relative text-sm font-normal uppercase tracking-widest text-secundary transition after:absolute after:top-8 after:block after:h-1 after:w-0 after:bg-success after:opacity-50 after:duration-500 hover:after:w-full">moon</a>
+            </li>
+            <li>
+              <a href="#"
+                class="relative text-sm font-normal uppercase tracking-widest text-secundary transition after:absolute after:top-8 after:block after:h-1 after:w-0 after:bg-success after:opacity-50 after:duration-500 hover:after:w-full">mars</a>
+            </li>
+            <li>
+              <a href="#"
+                class="relative text-sm font-normal uppercase tracking-widest text-secundary transition after:absolute after:top-8 after:block after:h-1 after:w-0 after:bg-success after:opacity-50 after:duration-500 hover:after:w-full">europa</a>
+            </li>
+            <li>
+              <a href="#"
+                class="relative text-sm font-normal uppercase tracking-widest text-secundary transition after:absolute after:top-8 after:block after:h-1 after:w-0 after:bg-success after:opacity-50 after:duration-500 hover:after:w-full">titan</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section data-tab="content">
+          <!-- MOON -->
+
+          <section data-anime="show-right">
+            <h2
+              class="font-bellefair text-5xl font-normal uppercase text-success md:text-7xl lg:text-start lg:text-7xl">
+              moon
+            </h2>
+            <p class="border-b border-grazy pb-5 text-sm text-secundary lg:text-start">
+              See our planet as you’ve never seen it before. A perfect
+              relaxing trip away to help regain perspective and come back
+              refreshed. While you’re there, take in some history by visiting
+              the Luna 2 and Apollo 11 landing sites.
+            </p>
+            <div class="grid gap-y-8 py-5 md:grid-cols-2 lg:text-start">
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Avg. distance
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  384,400 km
+                </h3>
+              </div>
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Est. travel time
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  3 days
+                </h3>
+              </div>
+            </div>
+          </section>
+
+          <!-- MARS -->
+
+          <section data-anime="show-right">
+            <h2
+              class="font-bellefair text-5xl font-normal uppercase text-success md:text-7xl lg:text-start lg:text-7xl">
+              mars
+            </h2>
+            <p class="border-b border-grazy pb-5 text-sm text-secundary lg:text-start">
+              Don’t forget to pack your hiking boots. You’ll need them to
+              tackle Olympus Mons, the tallest planetary mountain in our solar
+              system. It’s two and a half times the size of Everest!
+            </p>
+
+            <div class="grid gap-y-8 py-5 md:grid-cols-2 lg:text-start">
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Avg. distance
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  225 mil. km
+                </h3>
+              </div>
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Est. travel time
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  9 months
+                </h3>
+              </div>
+            </div>
+          </section>
+
+          <!-- EUROPA -->
+
+          <section data-anime="show-right">
+            <h2
+              class="font-bellefair text-5xl font-normal uppercase text-success md:text-7xl lg:text-start lg:text-7xl">
+              Europa
+            </h2>
+            <p class="border-b border-grazy pb-5 text-sm text-secundary lg:text-start">
+              The smallest of the four Galilean moons orbiting Jupiter, Europa
+              is a winter lover’s dream. With an icy surface, it’s perfect for
+              a bit of ice skating, curling, hockey, or simple relaxation in
+              your snug wintery cabin.
+            </p>
+
+            <div class="grid gap-y-8 py-5 md:grid-cols-2 lg:text-start">
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Avg. distance
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  628 mil. km
+                </h3>
+              </div>
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Est. travel time
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  3 years
+                </h3>
+              </div>
+            </div>
+          </section>
+
+          <!-- TITAN -->
+
+          <section data-anime="show-right">
+            <h2
+              class="font-bellefair text-5xl font-normal uppercase text-success md:text-7xl lg:text-start lg:text-7xl">
+              Titan
+            </h2>
+            <p class="border-b border-grazy pb-5 text-sm text-secundary lg:text-start">
+              The only moon known to have a dense atmosphere other than Earth,
+              Titan is a home away from home (just a few hundred degrees
+              colder!). As a bonus, you get striking views of the Rings of
+              Saturn.
+            </p>
+
+            <div class="grid gap-y-8 py-5 md:grid-cols-2 lg:text-start">
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Avg. distance
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  1.6 bil. km
+                </h3>
+              </div>
+              <div>
+                <p class="font-barlow-condensed text-sm uppercase tracking-widest text-secundary md:mb-2">
+                  Est. travel time
+                </p>
+                <h3 class="font-bellefair text-2xl uppercase leading-8 text-success md:text-3xl">
+                  7 years
+                </h3>
+              </div>
+            </div>
+          </section>
+
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

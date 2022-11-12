@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tourism Espace">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+    rel="stylesheet" />
+  <!-- Animate CSS -->
+  <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <title>HOME</title>
+</head>
+
+<body
+  class="min-h-screen overflow-x-hidden bg-[url('../assets/home/background-home-mobile.jpg')] bg-cover md:bg-[url('../assets/home/background-home-tablet.jpg')] lg:bg-[url('../assets/home/background-home-desktop.jpg')]">
+  <!-- Header -->
+
+  <header class="header relative flex items-center justify-between p-6 lg:pt-10 lg:pr-0 lg:pl-10">
+    <div class="cursor-pointer">
+      <a href="./index.html"><img class="transition ease-in-out hover:scale-125" width="48" height="48"
+          src="assets/shared/logo.svg" alt="Logo" /></a>
+    </div>
+    <div>
+      <img class="w-7 cursor-pointer md:hidden" src="assets/shared/icon-hamburger.svg" width="24" height="21"
+        alt="icon menu" id="menu" />
+    </div>
+    <div class="linha hidden xl:block"></div>
+    <nav aria-label="primaria"
+      class="menu-mobile md:visible md:right-0 md:h-auto md:w-auto lg:static lg:w-full lg:max-w-4xl" data-nav="link">
+      <div class="absolute top-8 right-8 w-7 cursor-pointer md:hidden">
+        <img width="21" height="20" src="assets/shared/icon-close.svg" alt="Icon close menu" id="close-menu" />
+      </div>
+      <ul
+        class="nav-list mt-32 items-center gap-x-7 pl-5 text-success md:mt-0 md:flex md:h-24 md:px-11 lg:justify-center lg:gap-16">
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./index.html"><span class="font-bold md:hidden lg:inline-block">00</span>
+            Home</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./destination-moon.html"><span class="font-bold md:hidden lg:inline-block">01</span>
+            Destination</a>
+        </li>
+        <li class="mb-14 md:mb-0">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./crew-commander.html"><span class="font-bold md:hidden lg:inline-block">02</span>
+            Crew</a>
+        </li>
+        <li class="">
+          <a class="relative uppercase leading-3 tracking-widest transition md:after:absolute md:after:-bottom-10 md:after:w-0 md:after:duration-500 md:after:block md:after:h-1 md:after:opacity-50 hover:after:w-full md:after:left-0 md:after:bg-success md:text-sm after:hidden"
+            href="./technology-vehicle.html"><span class="font-bold md:hidden lg:inline-block">03</span>
+            Technology</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Content -->
+
+  <main
+    class="animate__fadeIn grid justify-items-center pt-10 md:pt-24 lg:h-3/4 lg:grid-cols-2 lg:place-items-center lg:pt-28">
+    <div class="m-auto mb-20 max-w-sm text-center md:mb-24 md:max-w-md lg:mb-0 lg:pt-28 lg:text-start">
+      <span class="uppercase tracking-widest text-secundary lg:text-2xl">So, you want to travel to</span>
+      <h1 class="font-bellefair text-7xl font-normal uppercase text-success md:text-8xl">
+        Space
+      </h1>
+      <p class="text-sm text-secundary md:text-base lg:leading-8">
+        Let’s face it; if you want to go to space, you might as well genuinely
+        go to outer space and not hover kind of on the edge of it. Well sit
+        back, and relax because we’ll give you a truly out of this world
+        experience!
+      </p>
+    </div>
+    <a href="destination-moon.html"
+      class="duration-0 btn-hover flex h-40 w-40 cursor-pointer items-center justify-center rounded-full bg-success text-center font-bellefair text-xl uppercase text-primary transition hover:mix-blend-normal hover:shadow-btn hover:duration-150 md:h-60 md:w-60 md:text-3xl lg:mb-8 lg:h-72 lg:w-72 lg:self-end">
+      Explore
+    </a>
+  </main>
+
+  <!-- JavaScript -->
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
